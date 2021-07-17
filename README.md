@@ -15,7 +15,9 @@ Before using the code it is necessary to install the Atomic Simulation Environme
 
 All other libraries and packages should automatically come with Python. 
 
-Work is done in a Jupyter notebook (see https://jupyter.org/ for installation instructions, or alternatively obtain Jupyter by downloading Anaconda for Python: https://www.anaconda.com/products/individual#Downloads). Jupyter notebooks are also compatible with Google Colab. (Do I mention supercomputers? Should I include scripts?)
+Work is done in a Jupyter notebook (see https://jupyter.org/ for installation instructions, or alternatively obtain Jupyter by downloading Anaconda for Python: https://www.anaconda.com/products/individual#Downloads). Jupyter notebooks are also compatible with Google Colab. 
+
+Once Jupyter is installed, download WF_1.csv and WF_2.csv in the directory from which you will use Jupyter notebooks. These files contain necessary weight factor parameters to calculate the relative weights of each atom in the alloy's bonds.
 
 Open a new Jupyter notebook and import the code alloy_surface_simulator.py:
 ```
