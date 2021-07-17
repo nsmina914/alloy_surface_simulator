@@ -39,3 +39,7 @@ To update the BCN dictionary, type:
 ```
 BCN[‘Pd’] = 6
 ```
+
+## Acknowledgements
+
+Yan, Z.; Taylor, M.G.; Mascareno, A.; Mpourmpakis, G. Size-, Shape-, and Composition-Dependent Model for Metal Nanoparticle Stability Prediction. Nano Letters. 2018, 18 (4), 2696-2704.
