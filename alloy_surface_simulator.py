@@ -99,6 +99,8 @@ def createSurface (dimensions,MI, lc, e1, per1, e2, filename):
         for j in range(int((100-per1)/100*count)):
             blank.append(e2)
         atomlist = blank
+        while len(atomlist)<count:
+            atomlist.append(e1)
         shuffled = tuple(random.sample(atomlist, count))
     else:
         for i in range(int((per1/100)*count)+1):
@@ -106,6 +108,8 @@ def createSurface (dimensions,MI, lc, e1, per1, e2, filename):
         for j in range(int((100-per1)/100*count)):
             blank.append(e2)
         atomlist = blank
+        while len(atomlist)<count:
+            atomlist.append(e1)
         shuffled = tuple(random.sample(atomlist, count))
     
     #writes an .xyz file in which the atoms in the shuffled list are assigned positions in the slab
